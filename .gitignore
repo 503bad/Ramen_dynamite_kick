@@ -1,0 +1,20 @@
+# 配布物(scripts/make_package.ps1 の出力。GitHub のリリースに置く)
+dist/
+
+# 同梱する UE4SS の zip(大きいので入れない。入手方法は third_party/ue4ss/README.md)
+third_party/ue4ss/*.zip
+
+# 開発用コマンド受付の作業フォルダ(dev\cmd.lua / out.txt)
+mod/RamenRanbu/dev/
+
+# エディタ・OS
+.vscode/
+.idea/
+*.swp
+Thumbs.db
+desktop.ini
+.DS_Store
+
+# ログ・クラッシュダンプ
+*.log
+*.dmp

@@ -1,0 +1,36 @@
+; RamenRanbu の設定。変更したらゲームを再起動してください。
+; 行頭が ; の行はコメントです。
+
+; パンチ / キックのキー(UE4SS のキー名。例: MIDDLE_MOUSE_BUTTON(ホイール押し込み)、
+; RIGHT_MOUSE_BUTTON(右クリック)、XBUTTON_ONE / XBUTTON_TWO(サイドボタン)、H、J、F1 など)
+punch_key = MIDDLE_MOUSE_BUTTON
+kick_key = RIGHT_MOUSE_BUTTON
+
+; 1 にすると、何かを注視している(「開ける」などの表示が出ている)とき・物を持っているときは反応しない。
+; 右クリックはゲームのサブ操作にも使われるので、キックは 1 にしています
+punch_requires_no_focus = 0
+kick_requires_no_focus = 1
+
+; アイテムを飛ばす速さ(cm/秒)と、上向きの割合、回転(度/秒)
+punch_item_speed = 650
+kick_item_speed = 1400
+upward_ratio = 0.35
+item_spin_degrees = 360
+
+; 設備(ビルドモードで置いた物)を押し出す距離(cm)
+punch_build_distance = 50
+kick_build_distance = 100
+; その方向へこの距離も動かせない場合は動かさない(cm)
+build_min_distance = 20
+
+; 機能ごとの有効(1)/無効(0)。当たり処理はホストの設定が使われます
+enable_items = 1
+enable_buildables = 1
+enable_fire = 1
+enable_gas_explosion = 1
+
+; パンチ/キックをエモートに装備していないとき、ホストなら一時的に装備して再生する
+auto_equip_when_host = 1
+
+; 当たりの結果をログ(ue4ss\UE4SS.log)に出す
+log_hits = 1

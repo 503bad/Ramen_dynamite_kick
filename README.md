@@ -21,6 +21,11 @@ Japanese Ramen Simulator(Steam AppID 4968640)の非公式 MOD です。
     冷蔵庫・シンク・ウォーターサーバーなど)は、吹き飛ばずに**出火**します。消火器で消してください。
 - 客などへのパンチ/キックの効果は、ゲーム本来のものがそのまま働きます。
 
+## ダウンロード
+
+**[最新版のダウンロード(Releases)](https://github.com/503bad/Ramen_dynamite_kick/releases/latest)** から `RamenRanbu_<版>.zip` をダウンロードしてください
+(「Source code」はソースコードなので、遊ぶだけなら不要です)。
+
 ## インストール
 
 動作環境: Windows 10 / 11、Steam 版の Japanese Ramen Simulator。
